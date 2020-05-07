@@ -49,7 +49,7 @@ console.log(newAllBooks);
 
 
 // 2.
-let newAllBooks2 = Array.from(new Set(allBooks));
+let newAllBooks2 = new Set(allBooks);
 console.log(newAllBooks2);
 
 
